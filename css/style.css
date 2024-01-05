@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1E202B;
+
+}
+input::placeholder,textarea::placeholder{
+    color: #b6b2b2 !important;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo h5,
+p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.navbar .nav-link,
+.active {
+    font-size: 17px;
+    font-weight: 500;
+    /* margin-left: 10px; */
+
+}
+
+.navbar {
+    background-color: #1E202B;
+
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-toggler:hover {
+    border: #009AD8 4px solid;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.nav-link:hover {
+    border: 2px solid #009AD8;
+    color: #009ad8 !important;
+    border-radius: 35px;
+
+}
+.active{
+    color:#009AD8!important;
+    background-color: transparent !important;
+    width: 100%;
+    height: 7vh;
+    border-radius: 30px;
+    border: 1px solid #009AD8 !important;
+}
+.header {
+    height: 100vh;
+    background-color: #1E202B;
+}
+
+.header .image {
+    height: 50vh;
+    background-image: url(../images/banner.png);
+    /* background-position: center; */
+    background-size: cover;
+    position: relative;
+}
+
+.header .image .btn {
+    position: absolute;
+    top: 21%;
+    right: 15.2%;
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: #009AD8;
+}
+
+.header .image input {
+    background-color: #1E202B;
+    color: #b6b2b2;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 0;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+
+
+.home_item {
+    width: 85%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    z-index: 545;
+
+}
+
+.home_item h5 {
+    color: grey;
+}
+
+.span-1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-header {
+    border-bottom: 0;
+    background-color: #2D303D;
+}
+
+.card-2 {
+
+    background-color: #222530;
+}
+
+.card-body-2 {
+    padding: 10% 0;
+    background-color: #262936;
+}
+
+.home_item .card {
+    background-color: #323544;
+}
+
+.card .home-content p {
+    color: #009AD8;
+}
+
+.card .home-content {
+    height: 55vh;
+}
+footer{
+    background-color: #262936;
+    padding: 5% 0;
+}
+footer input {
+    background-color: #1E202B !important;
+    border: none !important;
+    color: #b6b2b2 !important;
+}
+
+footer .bttn {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #009ad8;
+    border: none;
+}
+
+footer .social a {
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    background-color: #1e202b;
+    color: #009ad8;
+    display: inline-block;
+    font-size: 20px;
+    transition: all 0.6s;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+footer a:hover {
+    background-color: #009ad8;
+    color: #fff;
+}
+
+
+
+.home_link {
+    width: 100%;
+    height: 7%;
+    border-radius: 15px;
+    background-color: #1E202B;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.home_link .hov:hover{
+    text-decoration: underline !important;
+
+}
+.parent p{
+cursor: pointer;
+}
+.location{
+    background-color: #262936;
+    padding-top: 20%;
+    height: 60vh;
+    margin-top: 5%;
+}
+form input,textarea{
+    background-color: transparent !important;
+    border: 2px solid gray !important;
+    border-radius: 30px !important;
+    padding: 15px 13px !important;
+    color: #b6b2b2 !important;
+}
+form input:hover,textarea:hover,form .form-control:focus{
+    border: #009AD8 2px solid !important;
+}
+form .btn_form{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #009ad8;
+    border: none;
+    margin-left: 83%;
+    margin-top: 10px;
+}
